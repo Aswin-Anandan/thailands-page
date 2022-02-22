@@ -1,0 +1,28 @@
+.procedure-row .featured-desc{
+    text-align: center;
+}
+.procedure-row .featured-title{
+    margin-top: 10px;;
+    text-align: center;
+}
+.procedure-row .featured-thumbnail{
+    text-align: center;
+}
+.procedure-row .featured-thumbnail img{
+ border-radius: 50%;
+}
+
+.procedure-row:before {
+    content: '';
+    position: absolute;
+    left: -103px;
+    right: -60px;
+    height: 100%;
+    display: block;
+    top: 0px;
+    margin-left: 40px;
+    background: url(../assets/images/making/procedure-bg.png) center center no-repeat;
+}
+p{
+    font-family: roboto;
+}
